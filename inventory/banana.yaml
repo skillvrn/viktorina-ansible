@@ -1,0 +1,10 @@
+---
+all:
+  children:
+    gitlab:
+      hosts:
+        89.248.192.167:
+          ansible_user: ansible
+          ansible_port: 3223
+  vars:
+    ansible_connection: ssh
