@@ -1,0 +1,5 @@
+---
+- name: Play for gitlab
+  hosts: gitlab
+  roles:
+    - gitlab
